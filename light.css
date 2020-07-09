@@ -1,11 +1,11 @@
 html
 {
-    background-color: rgb(250, 250, 251);
-    color: #2D2D2D;
+    background-color: rgb(240, 242, 243);
+    color: rgb(93, 95, 96);
 }
 
 .navbar
 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(224, 233, 240);
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.5);
 }
