@@ -6,4 +6,8 @@
     position: fixed;
 
     padding: 1rem;
+    
+    padding-left: 18%;
+    padding-right: 18%;
+    word-wrap: break-word; 
 }
