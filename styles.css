@@ -1,0 +1,126 @@
+/**************************************/
+/************ Theme Values ************/
+/**************************************/
+
+.theme_light {
+    /* Navbar Title Color */
+    --color-primary: #ffffff;
+  
+    /* Body Background Color*/
+    --color-secondary: #f0f2f3;
+  
+    /* Navbar Icon Color */
+    --icon-color: #2d2d2d;
+  
+    /* Navbar Icon Hover Color */
+    --color-accent: #fd6f53;
+  
+    /* Body Text Color */
+    --font-color: #2d2d2d;
+  
+    /* Box Shadow for the Navbar */
+    --shadow-depth: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .theme_dark {
+    /* Navbar Title Color */
+    --color-primary: #2b2b2d;
+  
+    /* Body Background Color*/
+    --color-secondary: #333333;
+  
+    /* Navbar Icon Color */
+    --icon-color: #ffffff;
+  
+    /* Navbar Icon Hover Color */
+    --color-accent: #fd6f53;
+  
+    /* Body Text Color */
+    --font-color: #ffffff;
+  
+    /* Box Shadow for the Navbar */
+    --shadow-depth: 0 2px 2px -2px rgba(0, 0, 0, 0.75);
+  }
+  
+  /**************************************/
+  /************ Navbar Stuff ************/
+  /**************************************/
+  
+  .navbar {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+  
+    background-color: var(--color-primary);
+    position: fixed;
+  
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  
+    padding-left: 0%;
+    padding-right: 0%;
+  
+    box-shadow: var(--shadow-depth);
+  
+    line-height: 1rem;
+  }
+  
+  .navbar i {
+    -webkit-app-region: no-drag;
+    color: var(--icon-color);
+  
+    padding: 1rem;
+  
+    cursor: pointer;
+  }
+  
+  .navbar i:hover {
+    color: var(--color-accent);
+  }
+  
+  #connectBtn {
+    color: red;
+  }
+  
+  #disconnectBtn {
+    color: green;
+  }
+  
+  /*****************************************/
+  /************ Page Body Stuff ************/
+  /*****************************************/
+  
+  html {
+    background-color: var(--color-secondary);
+    padding-top: 0;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif;
+    color: var(--font-color);
+  
+    padding-top: 4rem;
+    /* padding-left: 1.5rem;
+      padding-right: 1.5rem; */
+  }
+  
+  .page_view
+  {
+    width: 95%;
+    margin: auto;
+  }
+  
+  @media only screen and (min-width: 1000px) 
+  {
+    .page_view
+    {
+      width: 85%;
+      margin: auto;
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
