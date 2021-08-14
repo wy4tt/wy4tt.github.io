@@ -82,11 +82,12 @@ html {
 
 .container {
   width: 60%;
-  margin: 100px auto;
+  padding: 5% 20% 0 20%;
 }
 @media only screen and (max-width: 1200px) {
   .container {
     width: 100%;
+    padding: 5% 0% 0 0%;
   }
 }
 .progressbar {
@@ -96,7 +97,7 @@ html {
   list-style-type: none;
   width: 25%;
   float: left;
-  font-size: 12px;
+  font-size: 1rem;
   position: relative;
   text-align: center;
   text-transform: uppercase;
