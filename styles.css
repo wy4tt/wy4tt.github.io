@@ -80,14 +80,18 @@ html {
 
 /********************** Progress **********************/
 
+.welcome_update {
+  padding: 5% 0 2.5% 0;
+  text-align: center;
+}
 .container {
   width: 60%;
-  padding: 5% 20% 0 20%;
+  padding: 0 20% 5% 20%;
 }
 @media only screen and (max-width: 1200px) {
   .container {
     width: 100%;
-    padding: 5% 0% 0 0%;
+    padding: 0;
   }
 }
 .progressbar {
