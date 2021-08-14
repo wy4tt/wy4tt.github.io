@@ -127,7 +127,7 @@ html {
   content: "";
   position: absolute;
   background-color: #7d7d7d;
-  top: 1rem;
+  top: 0.85rem;
   left: -50%;
   z-index: -1;
 }

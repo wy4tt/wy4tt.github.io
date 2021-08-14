@@ -1,7 +1,7 @@
 document.write(`
 <div class="container">
     <div class="welcome_update">
-        <h1>🚧 Under construction 🚧</h1>
+        <h2>🚧Under construction🚧</h2>
     </div>
 
     <ul class="progressbar">
