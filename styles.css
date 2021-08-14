@@ -92,6 +92,7 @@ html {
 }
 .progressbar {
   counter-reset: step;
+  padding: 0;
 }
 .progressbar li {
   list-style-type: none;
