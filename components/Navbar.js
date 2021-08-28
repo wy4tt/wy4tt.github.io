@@ -1,6 +1,6 @@
 document.write(`
 <div class="navbar">
-    <a href="#">
+    <a href="">
       <svg
         width="40.000000pt"
         height="40.000000pt"
